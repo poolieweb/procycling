@@ -1,0 +1,3 @@
+echo "Download the account file listed in the url below, and then use the 'azure account import @fileName' command."
+azure account download
+

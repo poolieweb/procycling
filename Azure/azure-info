@@ -1,0 +1,8 @@
+#!/bin/bash
+# Displays general info of the current Azure Subscription
+echo "Azure subscription details"
+echo
+azure account list --json |json -a  name username
+echo
+echo "Mobile Services"
+azure mobile list --json
